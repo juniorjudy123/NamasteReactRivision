@@ -24,5 +24,4 @@ redoing NamasteReact to get more clarity
 #parcel-hmr,file watching algorithm,image optimization,file minification,compress files,tree shaking
 #dist folder and .parcel-cache -build time reduces because it does caching
 #most expensive thing in your web browser is to load images
-
-#
+#browserslist-last 2 versions
