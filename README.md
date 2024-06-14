@@ -11,8 +11,18 @@ redoing NamasteReact to get more clarity
 #npm install -D parcel(understand it thoroughly)-DONE
 #packageLOCK.json -ShA512 hash what is it
 #transitive dependencies
+#Isc license -make notes
 #putting node_modules into gitignore-done
 #see what is inside package.json and packagelock.json
 -----break------------------
+
+#npx parcel index.html
+#npm and npx difference
+#install react,react-dom as a normal dependency
+#what is react-dom?
+#script type as module
+#parcel-hmr,file watching algorithm,image optimization,file minification,compress files,tree shaking
+#dist folder and .parcel-cache -build time reduces because it does caching
+#most expensive thing in your web browser is to load images
 
 #
