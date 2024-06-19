@@ -137,3 +137,47 @@ const HeadingComponent =()=> <h1>Hello world</h1>
     );
 
 This transformation is typically handled by Babel during the build process, making JSX a developer-friendly way to write React components.
+
+# ep:4 -planning the swiggy app
+
+# Header
+
+    -Logo
+    -Nav items
+
+# Body
+
+    -search
+    -Restaurant container
+    -Restaurant card
+
+# footer
+
+    -copyright
+    -Links
+    -Address
+    -contact
+
+# how to use inline styles in jsx
+
+    -it is written as a js object
+    In JSX, inline styles are written using an object that mimics the CSS properties, with camelCase naming for the CSS properties instead of hyphenated names. Here's how you can use inline styles in JSX:
+
+Basic Usage
+To apply inline styles, you can pass a JavaScript object to the style attribute.
+
+const logoStyle = {
+height: '50px',
+width: 'auto'
+};
+
+return (
+
+<div style={headerStyle}>
+<div className="Logo-container">
+<img
+          style={logoStyle}//passing the js object logostyle to the style attribute
+          src="https://penji.co/wp-content/uploads/2022/08/11.Foodigy-logo.jpg"
+          alt="logo"
+        />
+</div>
