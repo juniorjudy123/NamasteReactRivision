@@ -109,4 +109,31 @@ const HeadingComponent =()=> <h1>Hello world</h1>
     <Title></Title> or
     {Title()}//because it is a function and you can write this inside curly braces
 
-##
+## Your code is readable because you are writing jsx .jsx is not react
+
+    JSX (JavaScript XML) is a syntax extension for JavaScript used with React to describe what the UI should look like. It allows you to write HTML elements in JavaScript and place them in the DOM without using methods like createElement() or appendChild(). JSX is not the same as React, but it is a syntax that makes writing React components more intuitive and readable.
+
+    Key Points About JSX
+    Syntax Extension: JSX looks similar to HTML but is actually JavaScript. It allows you to write HTML tags within JavaScript code.
+    Transforms to JavaScript: JSX is transpiled by tools like Babel into JavaScript. For example, <h1>Hello, world!</h1> in JSX gets transformed into React.createElement('h1', null, 'Hello, world!').
+
+    Embedded Expressions: You can embed any JavaScript expression in JSX by wrapping it in curly braces {}. For example, <h1>{2 + 2}</h1> will render 4.
+    Attributes and Children: JSX allows you to set attributes using a syntax similar to HTML, and you can nest child elements.
+
+# JSX Compilation
+
+    When you write JSX, it’s not directly understandable by browsers. Here’s how a JSX element gets transformed:
+
+# JSX:
+
+    const element = <h1 className="greeting">Hello, world!</h1>;
+
+# Compiled JavaScript:
+
+    const element = React.createElement(
+    'h1',
+    { className: 'greeting' },
+    'Hello, world!'
+    );
+
+This transformation is typically handled by Babel during the build process, making JSX a developer-friendly way to write React components.
