@@ -140,6 +140,8 @@ This transformation is typically handled by Babel during the build process, maki
 
 # ep:4 -planning the swiggy app
 
+/---------------------------------/
+
 # Header
 
     -Logo
@@ -181,3 +183,17 @@ return (
           alt="logo"
         />
 </div>
+
+# props ,to make our cards dynamic .passing Props to a component is like passsing normal arguments to a function
+
+# destructuring props -how it is done for array and objects
+
+# props are objects
+
+# How does data come from backend to us?
+
+-It comes in the form of json
+what is json ?
+json viewer extension for chrome
+
+# config driven ui
