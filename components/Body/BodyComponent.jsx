@@ -1,4 +1,4 @@
-import ResContainerComponent from "../ResContainer/ResContainerComponent"
+import ResContainerComponent from "../ResCard/ResCardComponent"
 import "./bodyComponent.css"
 export const BodyComponent = () => {
 	const resList = [

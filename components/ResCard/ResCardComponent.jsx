@@ -1,8 +1,8 @@
 import React from "react"
-import "./resContainerComponent.css"
+import "./resCardComponent.css"
 import { IMG_URL } from "../../utils/constants"
 
-function ResContainerComponent(props) {
+function ResCardComponent(props) {
 	const { resData } = props
 	console.log("resList:", resData)
 	const { name, cuisines, avgRating, costForTwo, cloudinaryImageId } =
@@ -23,4 +23,4 @@ function ResContainerComponent(props) {
 	)
 }
 
-export default ResContainerComponent
+export default ResCardComponent
