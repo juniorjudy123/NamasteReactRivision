@@ -4,12 +4,17 @@ import { IMG_URL } from "../../utils/constants"
 
 function ResContainerComponent(props) {
 	const { resData } = props
-	console.log("resData:", resData.info)
-	const { name, cuisines, avgRating, costForTwo } = resData.info
+	console.log("resList:", resData)
+	const { name, cuisines, avgRating, costForTwo, cloudinaryImageId } =
+		resData?.info
 
 	return (
 		<div className="rest-card">
-			<img src={IMG_URL} alt="food-logo" className="food-logo" />
+			<img
+				src={IMG_URL + cloudinaryImageId}
+				alt="food-logo"
+				className="food-logo"
+			/>
 			<h2>{name}</h2>
 			<h4>{cuisines.join(",")}</h4>
 			<h4>{avgRating} stars</h4>
