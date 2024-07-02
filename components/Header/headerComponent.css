@@ -18,3 +18,8 @@
 	padding: 10px;
 	margin: 10px;
 }
+
+.login-btn {
+	cursor: pointer;
+	padding: 2px;
+}

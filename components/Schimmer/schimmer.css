@@ -1,0 +1,12 @@
+.schimmer-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.schimmer-card {
+	width: 250px;
+	height: 300px;
+	padding: 10px;
+	margin: 10px;
+	background-color: #f0f0f0;
+}

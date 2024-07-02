@@ -1,7 +1,14 @@
+import { useState } from "react"
 import "./headerComponent.css"
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart"
 
 const HeaderComponent = () => {
+	const [btnName, setbtnName] = useState(true)
+	const handleBtnToggle = () => {
+		setbtnName(!btnName)
+	}
+	console.log("header rendered")
+
 	return (
 		<div className="Header">
 			<div className="Logo-container">
@@ -18,6 +25,16 @@ const HeaderComponent = () => {
 					<li>Contact Us</li>
 					<li>
 						<ShoppingCartIcon />
+					</li>
+					<li>
+						<button
+							className="login-btn"
+							onClick={() => {
+								handleBtnToggle()
+							}}
+						>
+							{btnName ? "Login" : "Logout"}
+						</button>
 					</li>
 				</ul>
 			</div>

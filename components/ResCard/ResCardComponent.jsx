@@ -4,7 +4,7 @@ import { IMG_URL } from "../../utils/constants"
 
 function ResCardComponent(props) {
 	const { resData } = props
-	console.log("resList:", resData)
+	// console.log("resList:", resData)
 	const { name, cuisines, avgRating, costForTwo, cloudinaryImageId } =
 		resData?.info
 
